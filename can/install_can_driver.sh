@@ -14,4 +14,4 @@ sudo cp service/canSetupScript.sh /usr/local/bin/
 sudo cp service/setup-can.service /etc/systemd/system/
 sudo systemctl enable setup-can.service
 
-rm -r service/ advSocketCAN_V1.0.1.0/
+rm -r service/

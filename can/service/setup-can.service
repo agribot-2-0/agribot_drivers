@@ -1,0 +1,7 @@
+[Unit]
+
+[Service]
+ExecStart=/usr/local/bin/canSetupScript.sh
+
+[Install]
+WantedBy=default.target

@@ -9,7 +9,6 @@ cd ../examples && make
 cd ../..
 
 # Create service, which will activate CAN after system start
-tar -zxvf service.tar.gz
 sudo cp service/canSetupScript.sh /usr/local/bin/
 sudo cp service/setup-can.service /etc/systemd/system/
 sudo systemctl enable setup-can.service

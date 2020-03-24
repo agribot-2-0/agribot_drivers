@@ -1,0 +1,3 @@
+To check card BID run:
+
+cat /sys/class/daq/daq0/desc

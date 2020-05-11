@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Remember to run script with root privileges!
 
 # Install can socket drivers and examples

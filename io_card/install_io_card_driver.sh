@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 tar xf pci_driver.tar.xz
 sudo cat blacklist_txt >> /etc/modprobe.d/blacklist.conf
